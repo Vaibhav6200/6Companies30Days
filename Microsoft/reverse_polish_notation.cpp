@@ -1,3 +1,7 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
 // Approach
 // Iterate over vector
 // Push numbers into stack
@@ -27,7 +31,7 @@ public:
 
         for(int i=0; i<n; i++){
             string str = tokens[i];
-            if(str == "+" || str == "-" || str == "*" || str == "/"{
+            if(str == "+" || str == "-" || str == "*" || str == "/"){
                 long n2 = st.top(); st.pop();
                 long n1 = st.top(); st.pop();
 
@@ -42,3 +46,11 @@ public:
         return 0;
     }
 };
+
+
+
+int main()
+{
+
+    return 0;
+}
